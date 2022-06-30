@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.flag{
+    background: linear-gradient(to right, #008C45 33.3%, white 33.3%, white 66.6%, #CD212A 66.6%);  
+}
+
+.flag {
+    width: 500px;
+    height: 300px;  
+    margin: auto; 
+    margin-top: 50px;
+} 
+
+.flag-2 {
+    width: 500px;
+    height: 300px;  
+    margin: auto;  
+    display: flex;
+}
+
+.flag-2 .green {
+    background-color: #008C45;
+    width: 33%;
+}
+.flag-2 .white {
+    background-color: #fff;
+    width: 33%;
+}
+.flag-2 .red {
+    background-color: #CD212A;
+    width: 33%;
+}
+
+.text-center {
+    text-align: center;
+}
